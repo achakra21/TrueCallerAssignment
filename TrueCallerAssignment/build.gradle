@@ -1,0 +1,62 @@
+
+
+buildscript {
+    ext.kotlin_version = '1.2.41'
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.3'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+// Define all versions in a single place
+ext {
+
+    // Sdk and tools
+    minSdkVersion = 14
+    targetSdkVersion = 27
+    compileSdkVersion = 27
+
+    // Dagger Version
+    dagger2Version = '2.15'
+
+    // Support Libraries Version
+    supportLib = '26.1.0'
+    constraintLayoutLib = '1.0.2'
+    firebase = '11.8.0'
+
+    // Android Lifecycle Components
+    AndroidArchVer = '1.1.1'
+
+    // Reactive Android
+    rxJavaVersion = '2.1.0'
+    rxAndroidVersion = '2.0.2'
+    rxJavaAdapterVersion = "1.0.0"
+
+    // retrofit
+    retrofit = '2.3.0'
+    rxJavaAdapter = "1.0.0"
+
+    // OkHttp
+    okhttp = "3.4.1"
+
+    // Testing
+    junitVersion = '4.12'
+    mockitoVersion = '2.15.0'
+    mockitoKotVersion = '1.5.0'
+}

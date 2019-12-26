@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Truecaller-Assingment(Abhijit)</string>
+    <string name="truecaller10thcharacterrequest">Truecaller 10th Character Request</string>
+    <string name="truecallerevery10thcharacterrequest">Truecaller Every 10th Character Request</string>
+    <string name="truecallerwordcounterrequest">Truecaller Word Counter Request</string>
+</resources>

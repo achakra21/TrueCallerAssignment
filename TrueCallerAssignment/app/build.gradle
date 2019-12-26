@@ -1,0 +1,80 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'kotlin-kapt'
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    defaultConfig {
+        applicationId "abhijit.truecaller_assingment"
+        minSdkVersion roooject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            buildConfigField("String", "BASE_URL", "\"https://blog.truecaller.com\"")
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            buildConfigField("String", "BASE_URL", "\"https://blog.truecaller.com\"")
+            debuggable true
+        }
+    }
+    dataBinding {
+        enabled = true
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+
+    implementation "com.android.support:appcompat-v7:$rootProject.supportLib"
+    implementation "com.android.support:design:$rootProject.supportLib"
+    implementation "com.android.support:support-v4:$rootProject.supportLib"
+    implementation "com.android.support.constraint:constraint-layout:$rootProject.constraintLayoutLib"
+
+    // dependency injection
+
+    kapt "com.google.dagger:dagger-compiler:$rootProject.dagger2Version"
+    implementation "com.google.dagger:dagger:$rootProject.dagger2Version"
+
+    // Dagger Android
+    kapt "com.google.dagger:dagger-android-processor:$rootProject.dagger2Version"
+    implementation "com.google.dagger:dagger-android:$rootProject.dagger2Version"
+    implementation "com.google.dagger:dagger-android-support:$rootProject.dagger2Version"
+
+    // Android Lifecycle
+    implementation "android.arch.lifecycle:extensions:$rootProject.AndroidArchVer"
+    kapt "android.arch.lifecycle:compiler:$rootProject.AndroidArchVer"
+
+    // Reactive
+    implementation "io.reactivex.rxjava2:rxjava:$project.rxJavaVersion"
+    implementation "io.reactivex.rxjava2:rxandroid:$project.rxAndroidVersion"
+
+    // retrofit
+    implementation "com.squareup.retrofit2:retrofit:$rootProject.retrofit"
+    //implementation "com.squareup.retrofit2:converter-gson:$rootProject.retrofit"
+    implementation "com.jakewharton.retrofit:retrofit2-rxjava2-adapter:$project.rxJavaAdapter"
+    implementation "com.squareup.retrofit2:converter-scalars:$rootProject.retrofit"
+
+    // OKHttp
+    implementation "com.squareup.okhttp3:okhttp:$rootProject.okhttp"
+    implementation "com.squareup.okhttp3:logging-interceptor:$rootProject.okhttp"
+
+
+    //unit testing dependecies
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+
+
+}

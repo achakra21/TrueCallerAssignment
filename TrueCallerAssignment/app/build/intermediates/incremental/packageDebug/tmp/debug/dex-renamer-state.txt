@@ -1,0 +1,4 @@
+#Thu Dec 26 17:03:34 IST 2019
+base.0=/Users/abhijit.chakra/Desktop/TrueCaller/Abhijit_Chakra/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
