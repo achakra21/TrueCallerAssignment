@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/abhijit.chakra/Desktop/TrueCaller/Abhijit_Chakra/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "/Users/abhijit.chakra/TrueCaller/TrueCallerAssignment/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/Users/abhijit.chakra/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/ac821b604d2d6b6f9272a9c693f1d930/res/values-v21/values-v21.xml",

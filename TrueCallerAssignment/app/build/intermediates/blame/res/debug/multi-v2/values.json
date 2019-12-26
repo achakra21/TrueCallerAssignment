@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/abhijit.chakra/Desktop/TrueCaller/Abhijit_Chakra/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/abhijit.chakra/TrueCaller/TrueCallerAssignment/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/abhijit.chakra/.gradle/caches/transforms-1/files-1.1/library-3.1.3.aar/333a4c000c1b8ee6e19db9c05325ffe5/res/values/values.xml",
@@ -21,22 +21,20 @@
                     }
                 },
                 {
-                    "source": "/Users/abhijit.chakra/Desktop/TrueCaller/Abhijit_Chakra/app/src/main/res/values/styles.xml",
+                    "source": "/Users/abhijit.chakra/TrueCaller/TrueCallerAssignment/app/src/main/res/values/dimens.xml",
                     "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "54",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "368"
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "88,146,202",
+                        "endColumns": "57,55,48",
+                        "endOffsets": "141,197,246"
                     },
                     "to": {
-                        "startLines": "794",
-                        "startColumns": "4",
-                        "startOffsets": "66448",
-                        "endLines": "799",
-                        "endColumns": "12",
-                        "endOffsets": "66762"
+                        "startLines": "612,613,687",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "54111,54169,59096",
+                        "endColumns": "57,55,48",
+                        "endOffsets": "54164,54220,59140"
                     }
                 },
                 {
@@ -57,37 +55,20 @@
                     }
                 },
                 {
-                    "source": "/Users/abhijit.chakra/Desktop/TrueCaller/Abhijit_Chakra/app/src/main/res/values/dimens.xml",
+                    "source": "/Users/abhijit.chakra/TrueCaller/TrueCallerAssignment/app/src/main/res/values/colors.xml",
                     "from": {
-                        "startLines": "2,3,4",
+                        "startLines": "4,2,3",
                         "startColumns": "4,4,4",
-                        "startOffsets": "88,146,202",
-                        "endColumns": "57,55,48",
-                        "endOffsets": "141,197,246"
+                        "startOffsets": "153,55,102",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "194,97,148"
                     },
                     "to": {
-                        "startLines": "612,613,687",
+                        "startLines": "118,119,120",
                         "startColumns": "4,4,4",
-                        "startOffsets": "54111,54169,59096",
-                        "endColumns": "57,55,48",
-                        "endOffsets": "54164,54220,59140"
-                    }
-                },
-                {
-                    "source": "/Users/abhijit.chakra/Desktop/TrueCaller/Abhijit_Chakra/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1,2,3,4",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "16,84,177,281",
-                        "endColumns": "67,92,103,88",
-                        "endOffsets": "79,172,276,365"
-                    },
-                    "to": {
-                        "startLines": "771,782,783,784",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "64073,65433,65526,65630",
-                        "endColumns": "67,92,103,88",
-                        "endOffsets": "64136,65521,65625,65714"
+                        "startOffsets": "6234,6280,6327",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "6275,6322,6373"
                     }
                 },
                 {
@@ -122,23 +103,6 @@
                         "startOffsets": "59992,60302,60441,60488,60543,60871,60925,60977,61026,61087",
                         "endColumns": "39,42,46,54,44,53,51,48,60,49",
                         "endOffsets": "60027,60340,60483,60538,60583,60920,60972,61021,61082,61132"
-                    }
-                },
-                {
-                    "source": "/Users/abhijit.chakra/Desktop/TrueCaller/Abhijit_Chakra/app/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "153,55,102",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "194,97,148"
-                    },
-                    "to": {
-                        "startLines": "118,119,120",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "6234,6280,6327",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "6275,6322,6373"
                     }
                 },
                 {
@@ -177,6 +141,25 @@
                         "endLines": "2,6,9,10,13,16,17,20,23,24,25,26,30,31,32,33,38,39,40,43,46,47,50,53,56,59,60,63,66,67,72,73,77,78,79,80,81,82,83,84,85,86,87,93",
                         "endColumns": "51,69,11,67,11,11,66,11,11,66,64,64,11,65,65,66,11,68,65,11,11,66,11,11,11,11,64,11,11,64,11,66,11,64,64,61,61,61,58,59,60,60,58,11",
                         "endOffsets": "147,366,499,567,696,822,889,1012,1137,1204,1269,1334,1474,1540,1606,1673,1883,1952,2018,2143,2269,2336,2462,2589,2714,2841,2906,3032,3155,3220,3428,3495,3634,3699,3764,3826,3888,3950,4009,4069,4130,4191,4250,4459"
+                    }
+                },
+                {
+                    "source": "/Users/abhijit.chakra/TrueCaller/TrueCallerAssignment/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "54",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "368"
+                    },
+                    "to": {
+                        "startLines": "794",
+                        "startColumns": "4",
+                        "startOffsets": "66448",
+                        "endLines": "799",
+                        "endColumns": "12",
+                        "endOffsets": "66762"
                     }
                 },
                 {
@@ -232,6 +215,23 @@
                         "endLines": "151,152,614,615,616,617,618,672,673,674,675,676,677,678,679,680,681,682,683,684,685,686,696,697,706,707,717,718,722,739,781,2070,2074,2076,2082,2084,2268,2269",
                         "endColumns": "68,62,69,67,71,69,60,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,33,34,34,69,70,116,12,109,12,128,71,66",
                         "endOffsets": "8361,8424,54290,54358,54430,54500,54561,58174,58235,58297,58361,58423,58484,58552,58652,58712,58778,58851,58920,58977,59029,59091,59665,59741,60162,60197,60663,60698,60866,61830,65428,150936,151137,151313,151697,151892,165530,165597"
+                    }
+                },
+                {
+                    "source": "/Users/abhijit.chakra/TrueCaller/TrueCallerAssignment/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1,2,3,4",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "16,84,177,281",
+                        "endColumns": "67,92,103,88",
+                        "endOffsets": "79,172,276,365"
+                    },
+                    "to": {
+                        "startLines": "771,782,783,784",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "64073,65433,65526,65630",
+                        "endColumns": "67,92,103,88",
+                        "endOffsets": "64136,65521,65625,65714"
                     }
                 }
             ]

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Abhijit_Chakra.iml" filepath="$PROJECT_DIR$/Abhijit_Chakra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TrueCallerAssignment.iml" filepath="$PROJECT_DIR$/TrueCallerAssignment.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
